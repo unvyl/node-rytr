@@ -23,8 +23,13 @@ npm i @unvyl/rytr
 ```
 
 ## Initialize the client
-You can initialize the client by calling `rytr.init()`.
-Either pass a key as argument or provide the key as an argument.
+First, you need to import the module:
+```typescript
+import * as rytr from '@unvyl/rytr';
+```
+
+Then you can initialize the client by calling `rytr.init()`.
+Either pass a key as argument or provide the key via an env var called `RYTR_API_KEY`.
 
 ### `createCustomUseCase`
 
